@@ -26,4 +26,4 @@
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/your-username/Weather-vista.git
+   git clone https://github.com/Smiling-Hacker01/Weather-vista.git

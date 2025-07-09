@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 90%;
+    max-width: 400px;
+}
+
+h1{
+    font-size: 2rem;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+}
+#submit {
+    background-color: rgb(93, 126, 93);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#submit:hover {
+    background-color: rgb(8, 125, 8);
+}
+
+ #V-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Ensures the video covers the entire background */
+      z-index: -1; /* Sends the video behind other elements */
+    }
